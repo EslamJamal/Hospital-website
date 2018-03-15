@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms</title>
+    </head>
+    <body>
+        <form action="" method="get">
+            <fieldset>
+                <legend>HTML5 form attributes</legend>
+                <label for="username">Username:</label><input id="username" type="text" name="username" autofocus required>
+                <label for="email">Email:</label><input id="email" type="text" name="email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="Please enter in a valid email address: example@example.com">
+                <label for="phone"></label>Telephone Number:<input id="phone" type="tel" name="phone" pattern="[0-9]{4} [0-9]{3} [0-9]{3}" title="Please enter in a nummber in this format: #### ### ###">
+                <br>
+                <label for="on">On:</label><input id="on"type="radio" name="onOff" value="on">
+                <label for="off">Off:</label><input id="off" type="radio" name="onOff" value="off" checked>
+                <br>
+                <label for="yes">Yes</label><input id="yes" type="checkbox" name="checkbox1" value="yes" checked>
+                <label for="no">No</label><input id="no" type="checkbox" name="checkbox2" value="no" checked>
+                <input type="submit" value="submit the form">
+            </fieldset>
+        </form>
+    </body>
+</html>

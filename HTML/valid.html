@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Hotel booking form</title>
+        </head>
+        <body>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Personal Details:</legend>
+                    <label for="name">Username:</label><input type="text" name="username" id="name" required autofocus placeholder="Your Username" pattern"[a-zA-Z]{3,}" title="Please enter in more than 3 letters">
+                    <label for="email">Email:  </label><input type="text" name="email" id="email" required placeholder="Your email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="Please enter in a valid email address">
+                    <label for="phone">Phone:  </label><input type="tel" name="phone" id="phone" reqiuired placeholder="Please enter in your phone number" pattern="[0-9]{4} [0-9]{3} [0-9]{3}" title="Please enter in a phone number in this format">
+                    <select name="country" required>
+                        <option value=""> </option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="AUS">AUS</option>
+                    </select>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Booking Details:</legend>
+                    <label for="date">Booking date:</label> <input id="date" type="date" name="date" min="2016-02-22">
+                    <label for="number of guests">Number of guests:</label><input id="number of guests" type="number" name="number of guests" min="1" max="6">
+                    <p>Do you require meals?</p>
+                    <label for="yesMeals">Yes: </label><input id="yesMeals" type="radio" name="meals" value="yesMeals">
+                    <label for="noMeals">No: </label><input id="noMeals" type="radio" name="meals" value="noMeals">
+                    <br>
+                    <label for="balcony">Do you require a balcony? </label><input id="balcony" type="checkbox" name="balcony" value="yes" checked>
+                    <br>
+                    <input type="image" src="images/button.png" alt="Submit">
+                </fieldset>
+            </form>
+        </body>
+    </html>
+    
+    
+    
+                <input type="text" class="wp-form-control wpcf7-text"name="search" placeholder="Search">
+                <button class="wpcf7-submit button--itzel" type="submit"><i class="button__icon fa fa-envelope"></i><span>Search</span></button>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldset>
+                    <legend>Personal Details:</legend>
+                    <label for="DSSN">SSN: </label><input type="number" name="Doctor SSN" id="DSSN" required autofocus placeholder="Doctor Social Security Number" pattern"[0-9]{20}" min=0 title="Please enter a valid SSN">
+                    <br>
+                    <br>
+                    <label for="fname">Fname: </label><input type="text" name="fname" id="fname" required autofocus placeholder="Doctor's First Name" pattern"[a-zA-Z]{2,}" title="Please enter in more than 2 letters">
+                    <br>
+                    <br>
+                    <label for="lname">Lname: </label><input type="text" name="lname" id="lname" required autofocus placeholder="Doctor's Last Name" pattern"[a-zA-Z]{2,}" title="Please enter in more than 2 letters">
+                    <br>
+                    <br>
+                    <label for="Age">Age and Gender: </label><input type="number" name="Age" id="Age" required placeholder="Doctor's Age" min=0>
+                    <select name="Sex" required>
+                      <option value=""> </option>
+                      <option value="Male">M</option>
+                      <option value="Female">F</option>
+                    </select>
+                    <label for="Nationality">Nationality: </label><input type="text" name="Nationality" id="Nationality" required>
+                    <label for="Specialty">Specialty: </label><input type="text" name="Specialty" id="Specialty" required>
+                    <br>
+                    <br>
+                    <label for="salary">Salary: </label><input type="number" required min=0> 
+                    <label for="address">Address:  </label><input type="text" name="address" id="address" required placeholder="Doctor's Address">
+                    <label for="phone">Phone:  </label><input type="tel" name="phone" id="phone" reqiuired pattern="[0-9]{4} [0-9]{3} [0-9]{3}" title="Please enter in a phone number in this format #### ### ###">
+                    
+              </fieldset>
+                <br>
+                <fieldset>
+                  
+                    <input type="image" src="images/button.png" alt="Submit">
+                </fieldset>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <p>Fill out all required Field to send a Message. Please don't spam,Thank you!</p>
+              <form class="submitphoto_form">
+                <input type="text" class="wp-form-control wpcf7-text" placeholder="Your name">
+                <input type="mail" class="wp-form-control wpcf7-email" placeholder="Email address">          
+                <input type="text" class="wp-form-control wpcf7-text" placeholder="Subject">
+                <input type="number" class="wp-form-control wpcf7-text" placeholder="Phone Number">
+                <textarea class="wp-form-control wpcf7-textarea" cols="30" rows="10" placeholder="What would you like to tell us"></textarea>
+               <button class="wpcf7-submit button--itzel" type="submit"><i class="button__icon fa fa-envelope"></i><span>Send Message</span></button>                
+              </form>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <div class="menu_area">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">  
+          <div class="container">
+            <div class="navbar-header">
+              <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- LOGO -->              
+              <!-- TEXT BASED LOGO -->
+              <a class="navbar-brand" href="index.html"><i class="fa fa-heartbeat"></i><span>Surgery Department</span></a>              
+              <!-- IMG BASED LOGO  -->
+              <!--  <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>   -->                    
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+              
+              <li class="active"><a href="index.html">Home</a></li>
+              
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Doctors<span class="fa fa-angle-down"></span></a>
+                  
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="about-us.html">Add</a></li>
+                    <li><a href="search_doctor.php">Search</a></li>
+                    
+                  </ul>
+              </li>    
+             <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Engineers<span class="fa fa-angle-down"></span></a>
+                  
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="gallery.html">Add</a></li>
+                    <li><a href="search_eng.php">Search</a></li>
+                    
+                  </ul>
+            </li>
+            <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Patients<span class="fa fa-angle-down"></span></a>
+                  
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="medical-counseling.html">Add</a></li>
+                    <li><a href="search_patient.php">Search</a></li>
+                    
+                   </ul>
+            </li>
+            
+            <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nurses<span class="fa fa-angle-down"></span></a>
+                  
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="add_nurse.html">Add</a></li>
+                    <li><a href="search_nurse.php">Search</a></li>
+                    
+                  </ul>
+            </li>
+            <li><a href="features.html">Devices</a></li>
+            <li><a href="add_OR.html">Operation Room</a></li>
+            <li><a href="contact.html">Contact</a></li>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                <p class="form-submit">
+                                    <input type="submit" value="Search" class="submit" name="submit">
+                </p>                  
+              
+              
+              
+              
+              
+              <li><a href="add_OR.html">Operation Room</a></li>
+              
+              
+              
+              
+              
+              
+              
